@@ -12,7 +12,7 @@ const Navbar = () => {
   const [menu, setMenu] = useState(false);
   return (
     <header
-      className="w-full bg-[#08323a] text-white font-sans py-3 select-none"
+      className=" w-full bg-[#08323a] text-white font-sans py-3 select-none"
       dir="rtl"
     >
       <div className="max-w-[1400px] mx-auto px-4 md:px-8 flex items-center justify-between gap-4">

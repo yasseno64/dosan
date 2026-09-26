@@ -1,6 +1,6 @@
-import HeroSection from "../components/HeroSection"
+// import HeroSection from "../components/HeroSection"
 import Navbar from "../components/Navbar"
-
+import Hero from "../components/Hero"
 
 
 
@@ -9,7 +9,8 @@ const HomePage = () => {
         <div>
         <Navbar/>
         <main>
-            <HeroSection/>
+            {/* <HeroSection/> */}
+            <Hero/>
         </main>
         </div>
     );
